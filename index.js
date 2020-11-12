@@ -13,10 +13,11 @@ const bot = new Twit(config);
       twetta(`É isso, o Javascript só me permite escrever números até: ` + aux);
       process.exit();
     }
-    twetta(a);
+    // twetta(a);
+    console.log(a)
     b = a + b;
     a = aux;
-    setTimeout(fib, 18000000);
+    setTimeout(fib, 1800000);
   }
   fib();
 
