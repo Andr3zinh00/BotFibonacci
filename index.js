@@ -16,7 +16,7 @@ const bot = new Twit(config);
     twetta(a);
     b = a + b;
     a = aux;
-    setTimeout(fib, 1800000);
+    setTimeout(fib, 1500000);
   }
   fib();
 
