@@ -16,7 +16,7 @@ const map: { [x: number]: boolean } = {};
     twetta(a);
     b = a + b;
     a = aux;
-    setTimeout(fib, 30000);
+    setTimeout(fib, 1800000);
   }
   fib();
 
