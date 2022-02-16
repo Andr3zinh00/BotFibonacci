@@ -26,6 +26,6 @@ const map: { [x: number]: boolean } = {};
       .post("statuses/update", { status: String(pos ? status + "_" : status) })
       .then(() => {
         map[status as number] = true;
-      });
+      }).catch(console.warn);
   }
 })();
