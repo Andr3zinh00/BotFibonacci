@@ -4,8 +4,8 @@ const bot = new Twit(config);
 
 const map: { [x: number]: boolean } = {};
 (function () {
-  let a = 1.9327047124301523e+56;
-  let b = 3.1271819149290778e+56;
+  let a = 4.7304880620403654e+60;
+  let b =7.654090467756932e+60;
   let aux;
   function fib() {
     aux = b;
@@ -26,6 +26,7 @@ const map: { [x: number]: boolean } = {};
       .post("statuses/update", { status: String(pos ? status + "_" : status) })
       .then(() => {
         map[status as number] = true;
-      }).catch(console.warn);
+      })
+      .catch(console.warn);
   }
 })();
