@@ -4,8 +4,8 @@ const bot = new Twit(config);
 
 const map: { [x: number]: boolean } = {};
 (function () {
-  let a = 4.10926637848806e+147;
-  let b = 6.648932669220871e+147;
+  let a = 4.4174437371622886e+157;
+  let b = 7.147574110118939e+157;
   let aux;
   function fib() {
     aux = b;
