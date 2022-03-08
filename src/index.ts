@@ -19,7 +19,6 @@ const map: { [x: number]: boolean } = {};
     setTimeout(fib, 1800000);
   }
   fib();
-
   function twetta(status: number | string) {
     const pos = map[status as number];
     bot
