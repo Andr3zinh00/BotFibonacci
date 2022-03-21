@@ -1,11 +1,12 @@
 import Twit from "twit";
 import config from "./config";
 const bot = new Twit(config);
-
+// const _30_MIN = 1800000;
+const _15_MIN = 9.00000;
 const map: { [x: number]: boolean } = {};
 (function () {
-  let a = 1.0573620221388773e+292;
-  let b = 1.7108476902340223e+292;
+  let a = 5.150248633448867e+298;
+  let b = 8.333277339432965e+298;
   let aux;
   function fib() {
     aux = b;
@@ -16,7 +17,7 @@ const map: { [x: number]: boolean } = {};
     twetta(a);
     b = a + b;
     a = aux;
-    setTimeout(fib, 1800000);
+    setTimeout(fib, _15_MIN);
   }
   fib();
   function twetta(status: number | string) {
