@@ -2,11 +2,11 @@ import Twit from "twit";
 import config from "./config";
 const bot = new Twit(config);
 // const _30_MIN = 1800000;
-const _15_MIN = 9.00000;
+const _15_MIN = 900000;
 const map: { [x: number]: boolean } = {};
 (function () {
-  let a = 5.150248633448867e+298;
-  let b = 8.333277339432965e+298;
+  let a = 3.1830287059840983e+298;
+  let b = 5.150248633448867e+298;
   let aux;
   function fib() {
     aux = b;
